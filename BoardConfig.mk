@@ -106,9 +106,6 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 
 # Misc
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-TW_INCLUDE_NTFS_3G := true
-TWRP_INCLUDE_LOGCAT := true
-TW_INCLUDE_FB2PNG := true
 TW_DEFAULT_LANGUAGE := en
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
@@ -116,6 +113,7 @@ TW_INCLUDE_CRYPTO_OLD := true
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_USES_EXFAT := true
 TARGET_USES_NTFS := true
+TW_USE_TOOLBOX := true
 
 # Fstab
 PRODUCT_COPY_FILES += device/lenovo/p1m/twrp.fstab:recovery/root/etc/twrp.fstab
