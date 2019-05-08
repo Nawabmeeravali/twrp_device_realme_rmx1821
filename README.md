@@ -1,4 +1,4 @@
-# Omni TWRP for Lenovo Vibe P1M
+# Omni TWRP for Realme 1
 
-* Minimal device tree for building TWRP for ``p1m``
+* Minimal device tree for building TWRP for ``cph1861``
 * Everything works !

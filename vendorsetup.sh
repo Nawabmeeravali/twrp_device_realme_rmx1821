@@ -1,1 +1,1 @@
-add_lunch_combo omni_p1m-eng
+add_lunch_combo omni_cph1861-eng
