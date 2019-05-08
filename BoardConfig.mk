@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2017 The Android Open Source Project
 #
@@ -14,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/realme/cph1861
+LOCAL_PATH := device/realme/rmx1831
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := mt6771
@@ -54,19 +55,19 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x14f88000 --tags_offset 0x13f88000
 TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
-TARGET_PREBUILT_KERNEL := device/realme/cph1861/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/realme/rmx1831/prebuilt/kernel
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432 
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4513071104
-BOARD_VENDORIMAGE_PARTITION_SIZE := 1392508928
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 55135157760
+BOARD_VENDORIMAGE_PARTITION_SIZE := 1728053248
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 23531077120
 BOARD_CACHEIMAGE_PARTITION_SIZE := 452984832
 BOARD_FLASH_BLOCK_SIZE := 262144
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := realme,CPH1861,Realme 1,CPH1859,cph1861,cph1859,full_oppo6771_17061,a1_pro
+TARGET_OTA_ASSERT_DEVICE := realme,rmx1831
 
 # MTK Hardware
 BOARD_HAS_MTK_HARDWARE := true
@@ -117,4 +118,4 @@ TARGET_USES_NTFS := true
 TW_USE_TOOLBOX := true
 
 # Fstab
-PRODUCT_COPY_FILES += device/realme/cph1861/twrp.fstab:recovery/root/etc/twrp.fstab
+PRODUCT_COPY_FILES += device/realme/rmx1831/twrp.fstab:recovery/root/etc/twrp.fstab

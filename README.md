@@ -1,4 +1,4 @@
-# Omni TWRP for Realme 1
+# Omni TWRP for Realme U1
 
-* Minimal device tree for building TWRP for ``cph1861``
+* Minimal device tree for building TWRP for ``rmx1831``
 * Everything works !
